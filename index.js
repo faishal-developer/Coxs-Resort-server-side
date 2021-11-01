@@ -83,6 +83,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('this is working')
 })
+app.get('/check', (req, res) => {
+    res.send('this is cheking')
+})
 app.listen(port, () => {
     console.log('app is running');
 })
