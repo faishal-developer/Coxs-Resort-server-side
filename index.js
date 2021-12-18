@@ -101,7 +101,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('this is working')
+    res.send('this is working,from cox resort')
 })
 app.get('/check', (req, res) => {
     res.send('this is cheking')
